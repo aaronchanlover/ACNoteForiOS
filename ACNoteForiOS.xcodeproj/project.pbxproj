@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F210CC71CE1D9000081C82E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F210CC61CE1D9000081C82E /* main.m */; };
+		8F210CCA1CE1D9000081C82E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F210CC91CE1D9000081C82E /* AppDelegate.m */; };
+		8F210CCD1CE1D9000081C82E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F210CCC1CE1D9000081C82E /* ViewController.m */; };
+		8F210CD01CE1D9000081C82E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F210CCE1CE1D9000081C82E /* Main.storyboard */; };
+		8F210CD21CE1D9000081C82E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F210CD11CE1D9000081C82E /* Assets.xcassets */; };
+		8F210CD51CE1D9000081C82E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F210CD31CE1D9000081C82E /* LaunchScreen.storyboard */; };
+		8F210CE01CE1D9000081C82E /* ACNoteForiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F210CDF1CE1D9000081C82E /* ACNoteForiOSTests.m */; };
+		8F210CEB1CE1D9000081C82E /* ACNoteForiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F210CEA1CE1D9000081C82E /* ACNoteForiOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F210CDC1CE1D9000081C82E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F210CBA1CE1D9000081C82E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F210CC11CE1D9000081C82E;
+			remoteInfo = ACNoteForiOS;
+		};
+		8F210CE71CE1D9000081C82E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F210CBA1CE1D9000081C82E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F210CC11CE1D9000081C82E;
+			remoteInfo = ACNoteForiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F210CC21CE1D9000081C82E /* ACNoteForiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACNoteForiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F210CC61CE1D9000081C82E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F210CC81CE1D9000081C82E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F210CC91CE1D9000081C82E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F210CCB1CE1D9000081C82E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F210CCC1CE1D9000081C82E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F210CCF1CE1D9000081C82E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F210CD11CE1D9000081C82E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F210CD41CE1D9000081C82E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F210CD61CE1D9000081C82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F210CDB1CE1D9000081C82E /* ACNoteForiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACNoteForiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F210CDF1CE1D9000081C82E /* ACNoteForiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACNoteForiOSTests.m; sourceTree = "<group>"; };
+		8F210CE11CE1D9000081C82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F210CE61CE1D9000081C82E /* ACNoteForiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACNoteForiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F210CEA1CE1D9000081C82E /* ACNoteForiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACNoteForiOSUITests.m; sourceTree = "<group>"; };
+		8F210CEC1CE1D9000081C82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F210CBF1CE1D9000081C82E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F210CD81CE1D9000081C82E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F210CE31CE1D9000081C82E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F210CB91CE1D9000081C82E = {
+			isa = PBXGroup;
+			children = (
+				8F210CC41CE1D9000081C82E /* ACNoteForiOS */,
+				8F210CDE1CE1D9000081C82E /* ACNoteForiOSTests */,
+				8F210CE91CE1D9000081C82E /* ACNoteForiOSUITests */,
+				8F210CC31CE1D9000081C82E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F210CC31CE1D9000081C82E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F210CC21CE1D9000081C82E /* ACNoteForiOS.app */,
+				8F210CDB1CE1D9000081C82E /* ACNoteForiOSTests.xctest */,
+				8F210CE61CE1D9000081C82E /* ACNoteForiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F210CC41CE1D9000081C82E /* ACNoteForiOS */ = {
+			isa = PBXGroup;
+			children = (
+				8F210CC81CE1D9000081C82E /* AppDelegate.h */,
+				8F210CC91CE1D9000081C82E /* AppDelegate.m */,
+				8F210CCB1CE1D9000081C82E /* ViewController.h */,
+				8F210CCC1CE1D9000081C82E /* ViewController.m */,
+				8F210CCE1CE1D9000081C82E /* Main.storyboard */,
+				8F210CD11CE1D9000081C82E /* Assets.xcassets */,
+				8F210CD31CE1D9000081C82E /* LaunchScreen.storyboard */,
+				8F210CD61CE1D9000081C82E /* Info.plist */,
+				8F210CC51CE1D9000081C82E /* Supporting Files */,
+			);
+			path = ACNoteForiOS;
+			sourceTree = "<group>";
+		};
+		8F210CC51CE1D9000081C82E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F210CC61CE1D9000081C82E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F210CDE1CE1D9000081C82E /* ACNoteForiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F210CDF1CE1D9000081C82E /* ACNoteForiOSTests.m */,
+				8F210CE11CE1D9000081C82E /* Info.plist */,
+			);
+			path = ACNoteForiOSTests;
+			sourceTree = "<group>";
+		};
+		8F210CE91CE1D9000081C82E /* ACNoteForiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F210CEA1CE1D9000081C82E /* ACNoteForiOSUITests.m */,
+				8F210CEC1CE1D9000081C82E /* Info.plist */,
+			);
+			path = ACNoteForiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F210CC11CE1D9000081C82E /* ACNoteForiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F210CEF1CE1D9000081C82E /* Build configuration list for PBXNativeTarget "ACNoteForiOS" */;
+			buildPhases = (
+				8F210CBE1CE1D9000081C82E /* Sources */,
+				8F210CBF1CE1D9000081C82E /* Frameworks */,
+				8F210CC01CE1D9000081C82E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACNoteForiOS;
+			productName = ACNoteForiOS;
+			productReference = 8F210CC21CE1D9000081C82E /* ACNoteForiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F210CDA1CE1D9000081C82E /* ACNoteForiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F210CF21CE1D9000081C82E /* Build configuration list for PBXNativeTarget "ACNoteForiOSTests" */;
+			buildPhases = (
+				8F210CD71CE1D9000081C82E /* Sources */,
+				8F210CD81CE1D9000081C82E /* Frameworks */,
+				8F210CD91CE1D9000081C82E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F210CDD1CE1D9000081C82E /* PBXTargetDependency */,
+			);
+			name = ACNoteForiOSTests;
+			productName = ACNoteForiOSTests;
+			productReference = 8F210CDB1CE1D9000081C82E /* ACNoteForiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F210CE51CE1D9000081C82E /* ACNoteForiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F210CF51CE1D9000081C82E /* Build configuration list for PBXNativeTarget "ACNoteForiOSUITests" */;
+			buildPhases = (
+				8F210CE21CE1D9000081C82E /* Sources */,
+				8F210CE31CE1D9000081C82E /* Frameworks */,
+				8F210CE41CE1D9000081C82E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F210CE81CE1D9000081C82E /* PBXTargetDependency */,
+			);
+			name = ACNoteForiOSUITests;
+			productName = ACNoteForiOSUITests;
+			productReference = 8F210CE61CE1D9000081C82E /* ACNoteForiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F210CBA1CE1D9000081C82E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = arron;
+				TargetAttributes = {
+					8F210CC11CE1D9000081C82E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8F210CDA1CE1D9000081C82E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8F210CC11CE1D9000081C82E;
+					};
+					8F210CE51CE1D9000081C82E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8F210CC11CE1D9000081C82E;
+					};
+				};
+			};
+			buildConfigurationList = 8F210CBD1CE1D9000081C82E /* Build configuration list for PBXProject "ACNoteForiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F210CB91CE1D9000081C82E;
+			productRefGroup = 8F210CC31CE1D9000081C82E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F210CC11CE1D9000081C82E /* ACNoteForiOS */,
+				8F210CDA1CE1D9000081C82E /* ACNoteForiOSTests */,
+				8F210CE51CE1D9000081C82E /* ACNoteForiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F210CC01CE1D9000081C82E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F210CD51CE1D9000081C82E /* LaunchScreen.storyboard in Resources */,
+				8F210CD21CE1D9000081C82E /* Assets.xcassets in Resources */,
+				8F210CD01CE1D9000081C82E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F210CD91CE1D9000081C82E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F210CE41CE1D9000081C82E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F210CBE1CE1D9000081C82E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F210CCD1CE1D9000081C82E /* ViewController.m in Sources */,
+				8F210CCA1CE1D9000081C82E /* AppDelegate.m in Sources */,
+				8F210CC71CE1D9000081C82E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F210CD71CE1D9000081C82E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F210CE01CE1D9000081C82E /* ACNoteForiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F210CE21CE1D9000081C82E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F210CEB1CE1D9000081C82E /* ACNoteForiOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F210CDD1CE1D9000081C82E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F210CC11CE1D9000081C82E /* ACNoteForiOS */;
+			targetProxy = 8F210CDC1CE1D9000081C82E /* PBXContainerItemProxy */;
+		};
+		8F210CE81CE1D9000081C82E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F210CC11CE1D9000081C82E /* ACNoteForiOS */;
+			targetProxy = 8F210CE71CE1D9000081C82E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F210CCE1CE1D9000081C82E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F210CCF1CE1D9000081C82E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F210CD31CE1D9000081C82E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F210CD41CE1D9000081C82E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F210CED1CE1D9000081C82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F210CEE1CE1D9000081C82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F210CF01CE1D9000081C82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ACNoteForiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arron.ACNoteForiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F210CF11CE1D9000081C82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ACNoteForiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arron.ACNoteForiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F210CF31CE1D9000081C82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ACNoteForiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arron.ACNoteForiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACNoteForiOS.app/ACNoteForiOS";
+			};
+			name = Debug;
+		};
+		8F210CF41CE1D9000081C82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ACNoteForiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arron.ACNoteForiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACNoteForiOS.app/ACNoteForiOS";
+			};
+			name = Release;
+		};
+		8F210CF61CE1D9000081C82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ACNoteForiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arron.ACNoteForiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ACNoteForiOS;
+			};
+			name = Debug;
+		};
+		8F210CF71CE1D9000081C82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ACNoteForiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arron.ACNoteForiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ACNoteForiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F210CBD1CE1D9000081C82E /* Build configuration list for PBXProject "ACNoteForiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F210CED1CE1D9000081C82E /* Debug */,
+				8F210CEE1CE1D9000081C82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F210CEF1CE1D9000081C82E /* Build configuration list for PBXNativeTarget "ACNoteForiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F210CF01CE1D9000081C82E /* Debug */,
+				8F210CF11CE1D9000081C82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F210CF21CE1D9000081C82E /* Build configuration list for PBXNativeTarget "ACNoteForiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F210CF31CE1D9000081C82E /* Debug */,
+				8F210CF41CE1D9000081C82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F210CF51CE1D9000081C82E /* Build configuration list for PBXNativeTarget "ACNoteForiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F210CF61CE1D9000081C82E /* Debug */,
+				8F210CF71CE1D9000081C82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F210CBA1CE1D9000081C82E /* Project object */;
+}
